@@ -18,7 +18,7 @@ def basic_set(img, new_size):
 
 
     cv2.imshow('final image', final)
-    cv2.imwrite('basic_set', final)
+    cv2.imwrite('basic_set.png', final)
     # cv2.imshow('f',final_image)
     k = cv2.waitKey(0) & 0xFF
     if k == 27:
@@ -39,7 +39,7 @@ def turning_set(img, new_size):
 
 
     cv2.imshow('final image', final)
-    cv2.imwrite('turning_set', final)
+    cv2.imwrite('turning_set.png', final)
     # cv2.imshow('f',final_image)
     k = cv2.waitKey(0) & 0xFF
     if k == 27:
@@ -60,7 +60,7 @@ def fliping_h_set(img, new_size):
 
 
     cv2.imshow('final image', final)
-    cv2.imwrite('fliping_h_set', final)
+    cv2.imwrite('fliping_h_set.png', final)
     # cv2.imshow('f',final_image)
     k = cv2.waitKey(0) & 0xFF
     if k == 27:
@@ -81,7 +81,7 @@ def fliping_w_set(img, new_size):
 
 
     cv2.imshow('final image', final)
-    cv2.imwrite('fliping_w_set', final)
+    cv2.imwrite('fliping_w_set.png', final)
     # cv2.imshow('f',final_image)
     k = cv2.waitKey(0) & 0xFF
     if k == 27:
